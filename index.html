@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <header class="card__header">
+        <div class="header__text">
+          <p class="header__text-p">My balance</p>
+          <h1 class="header__text-h1">$921.48</h1>
+        </div>
+        <img src="./images/logo.svg" alt="logo" class="card__img" />
+      </header>
+      <main class="card__main">
+        <h2>Spending - Last 7 days</h2>
+        <div class="barchart">
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">mon</p>
+          </div>
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">tue</p>
+          </div>
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">wed</p>
+          </div>
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">thu</p>
+          </div>
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">fri</p>
+          </div>
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">sat</p>
+          </div>
+          <div class="barchart__item">
+            <div class="barchart__item-tooltip"></div>
+            <div class="barchart__item-bar"></div>
+            <p class="barchart__item-p">sun</p>
+          </div>
+        </div>
+        <hr />
+        <div class="summary">
+          <div class="summary__left">
+            <p class="summary__left-p">Total this month</p>
+            <h2 class="summary__amount">$478.33</h2>
+          </div>
+          <div class="summary__right">
+            <h3 class="summary__percent">+2.4%</h3>
+            <p class="summary__right-p">from last month</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
